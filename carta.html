@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carta de Feliz Cumpleaños</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: linear-gradient(135deg, #f3c07c 0%, #f3eff8 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            font-family: 'Georgia', serif;
+        }
+
+        .carta {
+            background: #fef9e7;
+            width: 100%;
+            max-width: 600px;
+            padding: 50px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+            position: relative;
+            transform: rotate(-2deg);
+        }
+
+        .encabezado {
+            text-align: center;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #e74c3c;
+            padding-bottom: 15px;
+        }
+
+        .encabezado h1 {
+            color: #e74c3c;
+            font-size: 32px;
+            font-style: italic;
+            margin-bottom: 5px;
+        }
+
+        .fecha {
+            color: #95a5a6;
+            font-size: 12px;
+        }
+
+        .contenido {
+            line-height: 1.8;
+            color: #2c3e50;
+            margin-bottom: 30px;
+            text-align: justify;
+        }
+
+        .contenido p {
+            margin-bottom: 15px;
+            font-size: 16px;
+        }
+
+        .despedida {
+            text-align: right;
+            margin-top: 30px;
+            font-style: italic;
+            color: #34495e;
+        }
+
+        .firma {
+            margin-top: 20px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .flecha {
+            text-align: center;
+            margin-top: 50px;
+            font-size: 24px;
+            cursor: pointer;
+        }
+
+        .flecha a {
+            color: #e74c3c;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+        }
+
+        .flecha a:hover {
+            transform: scale(1.1);
+            transition: transform 0.3s ease;
+        }
+
+        .boton-recuerdos {
+            position: fixed;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 100;
+        }
+
+        .boton-recuerdos a {
+            display: inline-block;
+            padding: 14px 28px;
+            background: linear-gradient(135deg, #ff9a9e, #fecfef);
+            color: #fff;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 30px;
+            box-shadow: 0 10px 25px rgba(255, 105, 180, 0.3);
+            transition: all 0.3s ease;
+            font-size: 16px;
+        }
+
+        .boton-recuerdos a:hover {
+            transform: scale(1.08);
+            box-shadow: 0 15px 35px rgba(255, 105, 180, 0.4);
+        }
+    </style>
+</head>
+<body>
+    <div class="carta">
+        <div class="encabezado">
+            <h1>¡Feliz Cumpleaños Amor!</h1>
+            <div class="fecha">Un día muy especial para una persona especial</div>
+        </div>
+
+        <div class="contenido">
+            <p>Te amo mucho </p>
+
+            <p>Hoy me toca saludarte de lejos y, aunque me muera por estar ahí, no quería dejar pasar el día sin recordarte lo mucho que te valoro.  A veces creo que no tenés idea de lo mucho que valés.</p>
+
+            <p>Tenés una forma de ser tan genuina y una bondad tan real que es imposible no admirarte. Sos de esas personas que hacen que el mundo de los demás sea un lugar mejor solo por estar en él.</p>
+
+            <p>Gracias por ser ese hombre increíble que me cuida y me inspira, incluso cuando las cosas se ponen difíciles. Sos mi lugar seguro y mi orgullo más grande. Me duele no poder darte ese abrazo hoy. </p>
+
+            <p>Pero sabelo que mi corazón está ahí con vos, celebrando cada segundo de tu vida. Te amo con todo lo que soy. Disfrutá mucho tu día, que nadie se lo merece más que vos.</p>
+        </div>
+
+        <div class="despedida">
+            <p>Con todo mi cariño,</p>
+            <div class="firma">Geo</div>
+        </div>
+    </div>
+
+    <div class="boton-recuerdos">
+        <a href="recuerdos.html">💖 Ver recuerdos</a>
+    </div>
+</body>
+</html>
